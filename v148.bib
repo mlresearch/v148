@@ -1,0 +1,198 @@
+@Proceedings{Prereg2021,
+ booktitle={NeurIPS 2020 Workshop on Pre-registration in Machine Learning},
+ name={NeurIPS 2020 Workshop on Pre-registration in Machine Learning},
+ shortname={Prereg},
+ year={2021},
+ editor={Bertinetto, Luca and Henriques, Jo\~{a}o F. and Albanie, Samuel and Paganini, Michela and Varol, G\"{u}l},
+ volume={148},
+ start={2020-12-11},
+ end={2020-12-11},
+ published={2021-07-08},
+ address={Virtual},
+ conference_url={https://preregister.science/neurips2020.html},
+}
+
+@InProceedings{preface,
+ title = {Preface},
+ author = {Luca Bertinetto and Jo\~ao F. Henriques and Samuel Albanie and Michela Paganini and G\"ul Varol},
+ pages = {i}
+ }
+
+@InProceedings{fu21,
+ title={Point Cloud Overlapping Region Co-Segmentation Network},
+ author={Kexue Fu and Xiaoyuan Luo and Manning Wang},
+ pages={1-13},
+ abstract={3D point clouds are being increasingly used in the field of computer vision and many applications involve the processing of partially overlapping point clouds. However, little attention has been paid to the property of partial overlap. In this paper, we propose the concept of co-segmentation of the overlapping region of two 3D point clouds and develop a deep neural network to solve this problem. The proposed network utilizes co-attention mechanism to aggregate information from the paring point clouds so as to find the overlapping region. The co-segmentation of overlapping region can be regarded as a preprocessing step in practical 3D point cloud processing pipelines so that downstream tasks can be better accomplished. We build a dataset of partially overlapping 3D point clouds from ModelNet40 and ShapeNet, which are two widely used 3D point cloud datasets, and the overlapping region can be obtained automatically without manual labelling. We also utilize the real 3D point cloud datasets, 3DMatch and ScanNet, in which the overlapping region can be obtained from the relative pose between point clouds provided in the datasets. We evaluate the performance of the proposed method on co-segmentation of overlapping region on these datasets and its effectiveness in improving one downstream task, 3D point cloud registration, which is very sensitive to partial overlapping}
+}
+
+@InProceedings{chandra21,
+ title={On Initial Pools for Deep Active Learning},
+ author={Chandra, Akshay L. and Desai, Sai Vikas and Devaguptapu, Chaitanya and Balasubramanian, Vineeth N.},
+ pages={14-32},
+ abstract={Active Learning (AL) techniques aim to minimize the training data required to train a model for a given task. Pool-based AL techniques start with a small initial labeled pool and then iteratively pick batches of the most informative samples for labeling. Generally, the initial pool is sampled randomly and labeled to seed the AL iterations. While recent studies have focused on evaluating the robustness of various query functions in AL, little to no attention has been given to the design of the initial labeled pool for deep active learning. Given the recent successes of learning representations in self-supervised/unsupervised ways, we study if an intelligently sampled initial labeled pool can improve deep AL performance. We investigate the effect of intelligently sampled initial labeled pools, including the use of self-supervised and unsupervised strategies, on deep AL methods. The setup, hypotheses, methodology, and implementation details were evaluated by peer review before experiments were conducted. Experimental results could not conclusively prove that intelligently sampled initial pools are better for AL than random initial pools in the long run, although a Variational Autoencoder-based initial pool sampling strategy showed interesting trends that merit deeper investigation.}
+}
+
+@InProceedings{yuezhang21,
+ title={Evaluating Adversarial Robustness in Simulated Cerebellum},
+ author={Yuezhang, Liu and Li, Bo and Chen, Qifeng},
+ pages={33-50},
+ abstract={It is well known that artificial neural networks are vulnerable to adversarial examples, in which great efforts have been made to improve the robustness. However, such examples are usually imperceptible to humans, and thus their effect on biological neural circuits is largely unknown. This paper will investigate the adversarial robustness in a simulated cerebellum, a well-studied supervised learning system in computational neuroscience. Specifically, we propose to study three unique characteristics revealed in the cerebellum: (i) network width; (ii) long-term depression on the parallel fiber-Purkinje cell synapses; (iii) sparse connectivity in the granule layer, and hypothesize that they will be beneficial for improving robustness. To the best of our knowledge, this is the first attempt to examine the adversarial robustness in simulated cerebellum models. 
+ 
+ The results are negative in the experimental phase---no significant improvements in robustness are discovered from the proposed three mechanisms. Consequently, the cerebellum is expected to be vulnerable to adversarial examples as the deep neural networks under batch training. Neuroscientists are encouraged to fool the biological system in experiments with adversarial attacks.}
+}
+
+@InProceedings{gao21,
+ title={Contrastive Self-Supervised Learning for Skeleton Action Recognition},
+ author={Xuehao Gao and Yang Yang and Shaoyi Du},
+ pages={51-61},
+ abstract={Learning discriminative features plays a significant role in action recognition. Many attempts have
+ been made to train deep neural networks by their labeled data. However, in previous networks,
+ the view or distance variations can cause the intra-class differences even larger than inter-class
+ differences. In this work, we propose a new contrastive self-supervised learning method for action
+ recognition of unlabeled skeletal videos. Through contrastive representation learning by adequate
+ compositions of viewpoints and distances, the self-supervised net selects discriminative features
+ which have invariance motion semantics for action recognition. We hope this attempt can be helpful
+ for the unsupervised learning study of skeleton-based action recognition.}
+}
+
+@InProceedings{jaiswal21,
+ title={Keypoints-aware Object Detection},
+ author={Jaiswal, Ayush and Singh, Simranjit and Wu, Yue and Natarajan, Pradeep and Natarajan, Premkumar},
+ pages={62-72},
+ abstract={We propose a new framework for object detection that guides the model to explicitly reason about translation and rotation invariant object keypoints to boost model robustness. The model first predicts keypoints for each object in the image and then derives bounding-box predictions from the keypoints. While object classification and box regression are supervised, keypoints are learned through self-supervision by comparing keypoints predicted for each image with those for its affine transformations. Thus, the framework does not require additional annotations and can be trained on standard object detection datasets. The proposed model is designed to be anchor-free, proposal-free, and single-stage in order to avoid associated computational overhead and hyperparameter tuning. Furthermore, the generated keypoints allow for inferring close-fit rotated bounding boxes and coarse segmentation for free. Results of our model on VOC show promising results. Our findings regarding training difficulties and pitfalls pave the way for future research in this direction.}
+}
+
+@InProceedings{gordon21,
+ title={Latent Neural Differential Equations for Video Generation},
+ author={Gordon, Cade and Parde, Natalie},
+ pages={73-86},
+ abstract={Generative Adversarial Networks have recently shown promise for video generation, building off of the success of image generation while also addressing a new challenge: time. Although time was analyzed in some early work, the literature has not adequately grown with temporal modeling developments. We study the effects of Neural Differential Equations to model the temporal dynamics of video generation. The paradigm of Neural Differential Equations presents many theoretical strengths including the first continuous representation of time within video generation. In order to address the effects of Neural Differential Equations, we investigate how changes in temporal models affect generated video quality. Our results give support to the usage of Neural Differential Equations as a simple replacement for older temporal generators. While keeping run times similar and decreasing parameter count, we produce a new state-of-the-art model in 64$\times$64 pixel unconditional video generation, with an Inception Score of 15.20.}
+}
+
+@InProceedings{osullivan21,
+ title={PCA Retargeting: Encoding Linear Shape Models as Convolutional Mesh Autoencoders},
+ author={O' Sullivan, Eimear and Zafeiriou, Stefanos},
+ pages={87-99},
+ abstract={3D Morphable Models have long played a key role in the construction of statistical shape models. While earlier models employed Principal Component Analysis, recent work has migrated towards mesh autoencoder models for the construction of lightweight, non-linear shape models that facilitate state-of-the-art reconstruction and the capture of high-fidelity details. Doing so results in a loss of interpretability and regularisation in the model latent space. To address this, we propose <em>PCA retargeting</em>, a method for expressing linear PCA models as mesh autoencoders and thereby retaining the gaussianity of the latent space. To encourage the capture of mesh details outside the expressive range of a PCA model, we introduce ``free'' latent space parameters. Experiments demonstrate the successful retargeting of the PCA models as mesh autoencoders. The introduction of ``free'' latent parameters have a greater impact when smaller latent vector sizes are used, but do not lead to any gains in reconstruction fidelity.}
+}
+
+@InProceedings{palm21,
+ title={Testing the Genomic Bottleneck Hypothesis in Hebbian Meta-Learning},
+ author={Palm, Rasmus Berg and Najarro, Elias and Risi, Sebastian},
+ pages={100-110},
+ abstract={Hebbian meta-learning has recently shown promise to solve hard reinforcement learning problems, allowing agents to adapt to some degree to changes in the environment. However, because each synapse in these approaches can learn a very specific learning rule, the ability to generalize to very different situations is likely reduced. We hypothesize that limiting the number of Hebbian learning rules through a “genomic bottleneck” can act as a regularizer leading to better generalization across changes to the environment. We test this hypothesis by decoupling the number of Hebbian learning rules from the number of synapses and systematically varying the number of Hebbian learning rules. The results in this paper suggest that simultaneously learning the Hebbian learning rules and their assignment to synapses is a difficult optimization problem, leading to poor performance in the environments tested. However, parallel research to ours finds that it is indeed possible to reduce the number of learning rules by clustering similar rules together. How to best implement a “genomic bottleneck” algorithm is thus an important research direction that warrants further investigation.}
+}
+
+@InProceedings{alves21,
+ title={An Empirical Study of the Discreteness Prior in Low-Rank Matrix Completion},
+ author={Alves, Rodrigo and Ledent, Antoine and Assun{\c{c}}{\~a}o, Renato and Kloft, Marius},
+ pages={111-125},
+ abstract={A reasonable assumption in recommender systems is that the rows (users) and columns (items) of the rating matrix can be split into groups (communities) with the following property: each entry of the matrix is the sum of components corresponding to community behavior and a purely low-rank component corresponding to individual behavior. We investigate (1) whether such a structure is present in real-world datasets, (2) whether the knowledge of the existence of such structure alone can improve performance, without explicit information about the community memberships. To these ends, we formulate a <em>joint</em> optimization problem over all (completed matrix, set of communities) pairs based on a nuclear-norm regularizer which jointly encourages <em>both</em> low-rank solutions <em>and</em> the recovery of relevant communities. Since our optimization problem is non-convex and of combinatorial complexity, we propose a heuristic algorithm to solve it. Our algorithm alternatingly refines the user and item communities through a clustering step jointly supervised by nuclear-norm regularization. The algorithm is guaranteed to converge. We performed synthetic and real data experiments to confirm our hypothesis and evaluate the efficacy of our method at recovering the relevant communities. The results shows that our method is capable of retrieving such an underlying (community behaviour + continuous low-rank) structure with high accuracy if it is present. }
+}
+
+@InProceedings{burceanu21,
+ title={SFTrack++: A Fast Learnable Spectral Segmentation Approach for Space-Time Consistent Tracking},
+ author={Elena Burceanu},
+ pages={126-138},
+ abstract={We propose an object tracking method, SFTrack++, that smoothly learns to preserve the tracked object consistency over space and time dimensions by taking a spectral clustering approach over the graph of pixels from the video, using a fast 3D filtering formulation for finding the principal eigenvector of this graph's adjacency matrix. To better capture complex aspects of the tracked object, we enrich our formulation to multi-channel inputs, which permit different points of view for the same input. The channel inputs are in our experiments, the output of multiple tracking methods. After combining them, instead of relying only on hidden layers representations to predict a good tracking bounding box, we explicitly learn an intermediate, more refined one, namely the segmentation map of the tracked object. This prevents the rough common bounding box approach to introduce noise and distractors in the learning process. We test our method, SFTrack++, on five tracking benchmarks: OTB, UAV, NFS, GOT-10k, and TrackingNet, using five top trackers as input. Our experimental results validate the pre-registered hypothesis. We obtain consistent and robust results, competitive on the three traditional benchmarks (OTB, UAV, NFS) and significantly on top of others (by over $1.1\%$ on accuracy) on GOT-10k and TrackingNet, which are newer, larger, and more varied datasets.}
+}
+
+@InProceedings{bhagwatkar21,
+ title={Paying Attention to Video Generation},
+ author={Bhagwatkar, Rishika and Fitter, Khurshed and Bachu, Saketh and Kulkarni, Akshay and Chiddarwar, Shital},
+ pages={139-154},
+ abstract={Video generation is a challenging research topic which has been tackled by a variety of methods including Generative Adversarial Networks (GANs), Variational Autoencoders (VAE), optical flow and autoregressive models. However, most of the existing works model the task as image manipulation and learn pixel-level transforms. In contrast, we propose a latent vector manipulation approach using sequential models, particularly the Generative Pre-trained Transformer (GPT). Further, we propose a novel Attention-based Discretized Autoencoder (ADAE) which learns a finite-sized codebook that serves as a basis for latent space representations of frames, to be modelled by the sequential model. To tackle the reduced resolution or the diversity bottleneck caused by the finite codebook, we propose attention-based soft-alignment instead of a hard distance-based choice for sampling the latent vectors. We extensively evaluate the proposed approach on the BAIR Robot Pushing, Sky Time-lapse and Dinosaur Game datasets and compare with state-of-the-art (SOTA) approaches. Upon experimentation, we find that our model suffers mode collapse owing to a single vector latent space learned by the ADAE. The cause for this mode collapse is traced back to the peaky attention scores resulting from the codebook (Keys and Values) and the encoder's output (Query). Through our findings, we highlight the importance of reliable latent space frame representations for successful sequential modelling.}
+}
+
+@InProceedings{devos21,
+ title={Model-Agnostic Learning to Meta-Learn},
+ author={Devos, Arnout and Dandi, Yatin},
+ pages={155-175},
+ abstract={In this paper, we propose a learning algorithm that enables a model to quickly exploit commonalities among related tasks from an unseen task distribution, before quickly adapting to specific tasks from that same distribution. We investigate how learning with different task distributions can first improve adaptability by meta-finetuning on related tasks before improving goal task generalization with finetuning. Synthetic regression experiments validate the intuition that learning to meta-learn improves adaptability and consecutively generalization. Experiments on more complex image classification, continual regression, and reinforcement learning tasks demonstrate that learning to meta-learn generally improves task-specific adaptation. The methodology, setup, and hypotheses in this proposal were positively evaluated by peer review before conclusive experiments were carried out.}
+}
+
+@InProceedings{martinez21,
+ title={Confronting Domain Shift in Trained Neural Networks},
+ author={Martinez, Carianne and Najera-Flores, David A. and Brink, Adam R. and Quinn, D. Dane and Chatzi, Eleni and Forrest, Stephanie},
+ pages={176-192},
+ abstract={Neural networks (NNs) are known as universal function approximators and can interpolate nonlinear functions between observed data points. However, when the target domain for deployment shifts from the training domain and NNs must extrapolate, the results are notoriously poor. Prior work has shown that NN uncertainty estimates can be used to correct binary predictions in shifted domains without retraining the model. We hypothesize that this approach can be extended to correct real-valued time series predictions. As an exemplar, we consider two mechanical systems with nonlinear dynamics. The first system consists of a spring-mass system where the stiffness changes abruptly, and the second is a real experimental system with a frictional joint that is an open challenge for structural dynamicists to model efficiently. Our experiments will test whether 1) NN uncertainty estimates can identify when the input domain has shifted from the training domain and 2) whether the information used to calculate uncertainty estimates can be used to correct the NN's time series predictions. While the method as proposed did not significantly improve predictions, our results did show potential for modifications that could improve models' predictions and play a role in structural health monitoring systems that directly impact public safety.}
+}
+
+@InProceedings{monteiro21,
+ title={Domain Conditional Predictors for Domain Adaptation},
+ author={Monteiro, Joao and Gibert, Xavier and Feng, Jianqiao and Dumoulin, Vincent and Lee, Dar-Shyang},
+ pages={193-220},
+ abstract={Learning guarantees often rely on assumptions of i.i.d. data, which will likely be violated in practice once predictors are deployed to perform real-world tasks. Domain adaptation approaches thus appeared as a useful framework yielding extra flexibility in that distinct train and test data distributions are supported, provided that other assumptions are satisfied such as covariate shift, which expects the conditional distributions over labels to be independent of the underlying data distribution. Several approaches were introduced in order to induce generalization across varying train and test data sources, and those often rely on the general idea of domain-invariance, in such a way that the data-generating distributions are to be disregarded by the prediction model. In this contribution, we tackle the problem of generalizing across data sources by approaching it from the opposite direction: we consider a conditional modeling approach in which predictions, in addition to being dependent on the input data, use information relative to the underlying data-generating distribution. For instance, the model has an explicit mechanism to adapt to changing environments and/or new data sources. We argue that such an approach is more generally applicable than current domain adaptation methods since it does not require extra assumptions such as covariate shift and further yields simpler training algorithms that avoid a common source of training instabilities caused by minimax formulations, often employed in domain-invariant methods.}
+}
+
+@InProceedings{bohn21,
+ title={Towards a Unified Lifelong Learning Framework},
+ author={Tanner A. Bohn and
+  Xinyu Yun and
+  Charles X. Ling},
+ pages={221-235},
+ abstract={Humans can learn a variety of concepts and skills incrementally over the course of their lives while exhibiting many desirable properties, such as continual learning without forgetting, forward transfer of knowledge, and learning a new concept with few examples. 
+ However, most previous approaches to efficient lifelong learning demonstrate only subsets of these properties, often by different complex mechanisms.
+ In this preregistration submission, we propose to study the effectiveness of a unified lifelong learning framework designed to achieve many of these properties through one central mechanism. 
+ We describe this consolidation-based approach and propose experimental protocols to benchmark it on several skills, using grid searches over hyperparameters to better understand the framework.}
+}
+
+@InProceedings{eghbalzadeh21,
+ title={Context-Adaptive Reinforcement Learning using Unsupervised Learning of Context Variables},
+ author={Eghbal-zadeh, Hamid and Henkel, Florian and Widmer, Gerhard},
+ pages={236-254},
+ abstract={In Reinforcement Learning (RL), changes in the context often cause a distributional change in the observations of the environment, requiring the agent to adapt to this change. For example, when a new user interacts with a system, the system has to adapt to the needs of the user, which might differ based on the user’s characteristics that are often not observable. In this Contextual Reinforcement Learning (CRL) setting, the agent has to not only recognise and adapt to a context, but also remember previous ones. However, often in CRL the context is unknown, hence a supervised approach for learning to predict the context is not feasible. In this paper, we introduce Context-Adaptive Reinforcement Learning Agent (CARLA), that is capable of learning context variables in an unsupervised manner, and can adapt the policy to the current context. We provide a hypothesis based on the generative process that explains how the context variable relates to the states and observations of an environment. Further, we propose an experimental protocol to test and validate our hypothesis; and compare the performance of the proposed approach with other methods in a CRL environment. Finally, we provide empirical results in support of our hypothesis, demonstrating the effectiveness of CARLA in tackling CRL.}
+}
+
+@InProceedings{dahiya21,
+ title={Exploring self-supervised learning techniques for hand pose estimation},
+ author={Dahiya, Aneesh and Spurr, Adrian and Hilliges, Otmar},
+ pages={255-271},
+ abstract={3D hand pose estimation from monocular RGB is a challenging problem due to significantly varying environmental conditions such as lighting or variation in subject appearances. One way to improve performance across-the-board is to introduce more data. However, acquiring 3D annotated data for hands is a laborious task, as it involves heavy multi-camera setups leading to lab-like training data which does not generalize well. Alternatively, one could make use of unsupervised pre-training in order to significantly increase the training data size one can train on. More recently, contrastive learning has shown promising results on tasks such as image classification. Yet, no study has been made on how it affects structured regression problems such as hand pose estimation. We hypothesize that the contrastive objective does not extend well to such downstream task due to its inherent invariance and instead propose a relation objective, promoting equivariance. Our goal is to perform extensive experiments to validate our hypothesis.}
+}
+
+@InProceedings{cranmer21,
+  title = {Unsupervised {{Resource Allocation}} with {{Graph Neural Networks}}},
+  author = {Cranmer, Miles and Melchior, Peter and Nord, Brian},
+  pages = {272-284},
+  abstract = {We present an approach for maximizing a global utility function by learning how to allocate resources in an unsupervised way. We expect interactions between allocation targets to be important and therefore propose to learn the reward structure for near-optimal allocation policies with a GNN. By relaxing the resource constraint, we can employ gradient-based optimization in contrast to more standard evolutionary algorithms. Our algorithm is motivated by a problem in modern astronomy, where one needs to select-based on limited initial information-among $10^9$ galaxies those whose detailed measurement will lead to optimal inference of the composition of the universe. Our technique presents a way of flexibly learning an allocation strategy by only requiring forward simulators for the physics of interest and the measurement process. We anticipate that our technique will also find applications in a range of allocation problems from social science studies to customer satisfaction surveys and exploration strategies of autonomous agents.},
+}
+
+@InProceedings{lockwood21,
+ title={Playing Atari with Hybrid Quantum-Classical Reinforcement
+ Learning},
+ author={Lockwood, Owen and Si, Mei},
+ pages={285-301},
+ abstract={Despite the successes of recent works in quantum reinforcement learning, there are still severe limitations on its applications due to the challenge of encoding large observation spaces into quantum systems. To address this challenge, we propose using a neural network as a data encoder, with the Atari games as our testbed. Specifically, the neural network converts the pixel input from the games to quantum data for a Quantum Variational Circuit (QVC); this hybrid model is then used as a function approximator in the Double Deep Q Networks algorithm. We explore a number of variations of this algorithm and find that our proposed hybrid models do not achieve meaningful results on two Atari games -- Breakout and Pong. We suspect this is due to the significantly reduced sizes of the hybrid quantum-classical systems.}
+}
+
+@InProceedings{mulay21,
+ title={FedPerf: A Practitioners' Guide to Performance of Federated Learning Algorithms},
+ author={Mulay, Ajinkya and Gaspard, Baye and Naidu, Rakshit and Gonzalez-Toral, Santiago and S, Vineeth and Semwal, Tushar and Manish Agrawal, Ayush},
+ pages={302-324},
+ abstract={Federated Learning (FL) enables edge devices to collaboratively train a global model without sharing their local data. This decentralized and distributed approach improves user privacy, security, and trust.
+ Different variants of FL algorithms have presented promising results on both IID and skewed Non-IID data. However, the performance of FL algorithms is found to be sensitive to the FL system parameters and hyperparameters of the used model. In practice, tuning the right set of parameter settings for an FL algorithm is an expensive task. In this preregister paper, we propose an empirical investigation on four prominent FL algorithms to discover the relation between the FL System Parameters (FLSPs) and their performances. The FLSPs add extra complexity to FL algorithms over a traditional ML system.
+ We hypothesize that choosing the best FL algorithm for the given FLSP is not a trivial problem.
+ Further, we endeavor to formulate a systematic method that could aid the practitioners in selecting a suitable algorithm given the FLSPs. The code for all the experiments is available here: https://github.com/tushar-semwal/fedperf.}
+}
+
+@InProceedings{benz21,
+ title={Robustness May Be at Odds with Fairness: An Empirical Study on Class-wise Accuracy},
+ author={Benz, Philipp and Zhang, Chaoning and Karjauv, Adil and Kweon, In So},
+ pages={325-342},
+ abstract={Convolutional neural networks (CNNs) have made significant advancement, however, they are widely known to be vulnerable to adversarial attacks. Adversarial training is the most widely used technique for improving adversarial robustness to strong white-box attacks. Prior works have been evaluating and improving the model average robustness without class-wise evaluation. The average evaluation alone might provide a false sense of robustness. For example, the attacker can focus on attacking the vulnerable class, which can be dangerous, especially, when the vulnerable class is a critical one, such as ""human"" in autonomous driving. We propose an empirical study on the class-wise accuracy and robustness of adversarially trained models. We find that there exists inter-class discrepancy for accuracy and robustness even when the training dataset has an equal number of samples for each class. For example, in CIFAR10, ""cat"" is much more vulnerable than other classes. Moreover, this inter-class discrepancy also exists for normally trained models, while adversarial training tends to further increase the discrepancy. Our work aims to investigate the following questions: (a) is the phenomenon of inter-class discrepancy universal regardless of datasets, model architectures and optimization hyper-parameters? (b) If so, what can be possible explanations for the inter-class discrepancy? (c) Can the techniques proposed in the long tail classification be readily extended to adversarial training for addressing the inter-class discrepancy?}
+}
+
+@InProceedings{li21,
+ title={On the Low-density Latent Regions of VAE-based Language Models},
+ author={Li, Ruizhe and Peng, Xutan and Lin, Chenghua and Rong, Wenge and Chen, Zhigang},
+ pages={343-357},
+ abstract={By representing semantics in latent spaces, Variational autoencoders (VAEs) have been proven powerful in modelling and generating signals such as image and text, even without supervision. However, previous studies suggest that in a learned latent space, some low-density regions (aka. <em>holes</em>) exist, which could harm the overall system performance. While existing studies focus on empirically mitigating these latent holes, how they distribute and how they affect different components of a VAE, are still unexplored. In addition, the hole issue in VAEs for language processing is rarely addressed. In our work, by introducing a simple hole-detection algorithm based on the neighbour consistency between VAE's input, latent, and output semantic spaces, we propose to deeply dive into these topics for the first time. Comprehensive experiments including automatic evaluation and human evaluation imply that large-scale low-density latent holes may not exist in the latent space. In addition, various sentence encoding strategies are explored and the native word embedding is the most suitable strategy for VAEs in language modelling task.}
+}
+
+@InProceedings{sarkar21,
+ title={Decomposing camera and object motion for an improved video sequence prediction},
+ author={Sarkar, Meenakshi and Ghose, Debasish and Bala, Aniruddha},
+ pages={358-374},
+ abstract={We propose a novel deep learning framework that focuses on decomposing the motion or the flow of the pixels from the background for an improved and longer prediction of video sequences. We propose to generate multi-timestep pixel level prediction using a framework that is trained to learn the temporal and spatial dependencies encoded in the video data separately. The proposed framework, called Velocity Acceleration Network or VANet, is capable of predicting long term video frames for a static scenario, where the camera is stationary, as well as in dynamic partially observable cases, where the camera is mounted on a moving platform (cars or robots). This framework decomposes the flow of the image sequences into velocity and acceleration maps and learns the temporal transformations using a convolutional LSTM network. Our detailed empirical study on three different datasets (BAIR, KTH and KITTI) shows that conditioning recurrent networks like LSTMs with higher order optical flow maps results in improved inference capabilities for videos.}
+}

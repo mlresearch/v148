@@ -1,0 +1,88 @@
+---
+booktitle: NeurIPS 2020 Workshop on Pre-registration in Machine Learning
+shortname: Prereg
+year: '2021'
+volume: '148'
+start: 2020-12-11
+end: 2020-12-11
+published: 2021-07-08
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: Prereg2021
+month: 0
+cycles: false
+bibtex_editor: Bertinetto, Luca and Henriques, Jo\~{a}o F. and Albanie, Samuel and
+  Paganini, Michela and Varol, G\"{u}l
+editor:
+- given: Luca
+  family: Bertinetto
+- given: João F.
+  family: Henriques
+- given: Samuel
+  family: Albanie
+- given: Michela
+  family: Paganini
+- given: Gül
+  family: Varol
+title: Proceedings of Machine Learning Research
+description: |
+  NeurIPS 2020 Workshop on Pre-registration in Machine Learning
+    Held in Virtual on 11 December 2020
+
+  Published as Volume 148 by the Proceedings of Machine Learning Research on 08 July 2021.
+
+  Volume Edited by:
+    Luca Bertinetto
+    João F. Henriques
+    Samuel Albanie
+    Michela Paganini
+    Gül Varol
+
+  Series Editors:
+    Neil D. Lawrence
+    * Mark Reid
+date_str: 11 Dec
+url: http://proceedings.mlr.press
+author:
+  name: PMLR
+baseurl: "/v148"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: v148
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Volume
+volume_dir: v148
+email: ''
+conference:
+  name: NeurIPS 2020 Workshop on Pre-registration in Machine Learning
+  url: https://preregister.science/neurips2020.html
+  location: Virtual
+  dates:
+  - 2020-12-11
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/v148/v148.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/v148/v148.bib
